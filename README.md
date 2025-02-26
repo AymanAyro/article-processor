@@ -14,7 +14,7 @@
 
 Article Processor is a sophisticated NLP tool that leverages Google's Generative AI to transform raw articles into beautifully formatted Markdown and structured JSON metadata. This tool preserves the original content while adding professional formatting and extracting key information for organized content management.
 
-### Key Features
+### Features
 
 - 🔄 Convert plain text articles to formatted Markdown
 - 📊 Extract metadata (title, author, date, description) into JSON
@@ -66,16 +66,10 @@ export GOOGLE_API_KEY="your-api-key"  # On Windows: set GOOGLE_API_KEY=your-api-
 
 ## 💻 Usage
 
-### Running the GUI Application
+### Running the Application
 
 ```bash
-python gui.py
-```
-
-### Using the Command Line Interface
-
-```bash
-python main_agent.py
+python app.py
 ```
 
 ### Processing Flow
@@ -91,7 +85,7 @@ python main_agent.py
 The application is built with a clean separation of concerns:
 
 - **main_agent.py**: Core processing logic using LangChain and Google's Generative AI
-- **gui.py**: User interface built with PyQt5
+- **app.py**: User interface built with PyQt5 that runs the application
 - **Examples**: Few-shot learning examples for improved AI performance
 
 ### How It Works
