@@ -1,8 +1,8 @@
-# 🌙 Arabic Article Processor
+# 🌙 Article Processor
 
-![Arabic Article Processor Banner](https://github.com/user-attachments/assets/83015b9b-0702-4267-ad03-d5759baad414)
+![Article Processor Banner](https://github.com/user-attachments/assets/83015b9b-0702-4267-ad03-d5759baad414)
 
-> Transform Arabic articles into markdown and structured metadata effortlessly with AI-powered processing.
+> Transform articles into markdown and structured metadata effortlessly with AI-powered processing.
 
 [![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -12,14 +12,14 @@
 
 ## 📖 Overview
 
-Arabic Article Processor is a sophisticated NLP tool that leverages Google's Generative AI to transform raw Arabic articles into beautifully formatted Markdown and structured JSON metadata. This tool preserves the original Arabic content while adding professional formatting and extracting key information for organized content management.
+Article Processor is a sophisticated NLP tool that leverages Google's Generative AI to transform raw articles into beautifully formatted Markdown and structured JSON metadata. This tool preserves the original content while adding professional formatting and extracting key information for organized content management.
 
 ### Key Features
 
-- 🔄 Convert plain text Arabic articles to formatted Markdown
+- 🔄 Convert plain text articles to formatted Markdown
 - 📊 Extract metadata (title, author, date, description) into JSON
 - 🖼️ Include and manage article images
-- 📝 Maintain the original Arabic content and tone
+- 📝 Maintain the original content and tone
 - 🧠 Powered by Google's Gemini AI (via LangChain)
 - 🎨 User-friendly PyQt5 GUI interface
 - 🔍 Few-shot learning for improved output quality
@@ -44,8 +44,8 @@ Arabic Article Processor is a sophisticated NLP tool that leverages Google's Gen
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/arabic-article-processor.git
-cd arabic-article-processor
+git clone https://github.com/your-username/article-processor.git
+cd article-processor
 ```
 
 2. Create and activate a virtual environment:
@@ -80,7 +80,7 @@ python main_agent.py
 
 ### Processing Flow
 
-1. **Input**: Paste your Arabic article text into the application
+1. **Input**: Paste your article text into the application
 2. **Configure**: Set filename, author, date, and attach an image (optional)
 3. **Process**: The AI processes the article, preserving the original content
 4. **Review**: Check the markdown and metadata outputs
@@ -216,7 +216,6 @@ llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")  # Change model here
 - [ ] Integration with content management systems
 - [ ] Enhanced metadata extraction (tags, categories)
 - [ ] Direct publishing to popular blogging platforms
-- [ ] Support for additional languages besides Arabic
 
 ## 👥 Contributing
 
@@ -241,4 +240,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<p align="center">Made with ❤️ for Arabic content creators</p>
+<p align="center">Made with ❤️ for content creators</p>
